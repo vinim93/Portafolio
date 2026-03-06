@@ -1,0 +1,27 @@
+.cardb{
+    background-color: rgba(255, 255, 255, 0.495)!important;
+    margin-bottom: 1%;
+
+}
+.cardcontent{
+font-family: "Audiowide" sans-serif!important;
+  font-weight: 400!important;
+  font-style: normal;
+  text-align: center;  
+}
+.title{
+    font-family: "Kalnia Glaze", system-ui!important;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1)!important;
+    font-style: normal!important;
+    font-variation-settings:
+     "wdth" 103.5,
+     "wght" 604;
+      font-size: 200%!important;
+}
+.background{
+    position:fixed;
+    width: 100%!important;
+}
+

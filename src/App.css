@@ -1,21 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Honk:MORF@15&family=Kalnia+Glaze:wdth,wght@103.5,604&display=swap');
+
 .App {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  
+
 }
-.text-section{
+.MuiTooltip-popper {
+  touch-action: none !important;
+  pointer-events: none !important;
+}
+.stepper-container {
+  position: fixed;
+  top: 20%;
+  left: 20px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 8px;
+  z-index: 1040 !important;
+}
+
+
+
+
+
+@media (max-width: 830px) {
+ .customtooltip {
+  touch-action: none !important;
+  pointer-events: none !important;
+ 
+
+}
+}
+.text-section {
   position: absolute;
-  z-index: 1039!important;
+  z-index: 1039 !important;
 }
-.background{
-  position:fixed!important;
+
+.title {
+  font-family: "Kalnia Glaze", system-ui!important;
+  font-optical-sizing: auto;
+  font-weight: bold;
+    color: rgba(255, 255, 255, 1)!important;
+  font-style: normal!important;
+   font-variation-settings:
+    "wdth" 103.5,
+    "wght" 604;
+    font-size: 200%!important;
+ 
 }
+
 .App-logo {
-  height: 40vmin;
+  height: 40vh;
   pointer-events: none;
 }
+
+.cont-tec {
+  height: 300px !important;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -25,7 +70,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,10 +83,21 @@
   color: #61dafb;
 }
 
+.text-circle {
+  color: aliceblue;
+
+  top: 10vh;
+
+  z-index: 1039 !important;
+
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

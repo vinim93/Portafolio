@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&family=Kalnia+Glaze:wdth,wght@103.5,604&display=swap');
+
+.avatar{
+background-color: rgba(255, 255, 255, 0.493);
+border-radius: 10px;
+box-shadow: 10px 10px 10px darkblue;
+
+transition: box-shadow 1s;
+
+}
+
+.honk{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+.title{
+    font-family: "Kalnia Glaze", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 103.5,
+      "wght" 604;
+       font-size: 200%!important;
+}
+.contCarimgAV{
+    justify-items: end;
+    height: 100%!important;
+}
+
+.avatar:hover{
+    box-shadow: 10px 10px 10px rgb(109, 1, 123)!important;
+    zoom: 1.01;
+    
+}
+.wa{
+    
+    position: fixed;
+    z-index: 10;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    bottom: 5%;
+    right: 5%;
+   
+  }
+
+   

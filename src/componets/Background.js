@@ -24,64 +24,77 @@ export default function HeroBackground() {
 }
 
 const Wrapper = styled.div`
-  position: absolute;
-  width: 100%;
-  height: 1300px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  text-align:center;
   background: linear-gradient(180deg, #322d6d 6.33%, #663182 39.13%);
   text-align: center;
+  background-size: cover;
+  background-repeat: repeat;
+   
   overflow: hidden;
+  z-indez:-1
 `;
 
 const Wave = styled.div`
-  position: absolute;
-  width: 100%;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  position: fixed;
+  width: 100vw;
+   height: 100vh;
+  
+  background-position: center;
+ 
+  background-size: cover;
 
   @media (max-width: 1440px) {
-    background-size: 1440px;
+    
   }
 `;
 
 const Wave1 = styled(Wave)`
   top: 190px;
-  height: 446px;
+  height: 100vh;
   background-image: url(${mountain1});
 `;
 
 const Wave2 = styled(Wave)`
   top: 160px;
-  height: 464px;
+  height: 100vh;
   background-image: url(${mountain2});
+   background-repeat: repeat-y;
 `;
 
 const Wave3 = styled(Wave)`
   top: 347px;
-  height: 408px;
+  height: 100vh;
   background-image: url(${mountain3});
 `;
 
 const Wave4 = styled(Wave)`
   top: 466px;
-  height: 457px;
+  height: 100vh;
   background-image: url(${mountain4});
+   background-repeat: repeat;
 `;
 
 const Wave5 = styled(Wave)`
   top: 450px;
-  height: 867px;
+  height: 100vh;
   background-image: url(${mountain5});
+   background-repeat: repeat;
 `;
 
 const Wave6 = styled(Wave)`
   top: 700px;
-  height: 630px;
+  height: 100vh;
   background-image: url(${heroWave});
+   background-repeat: repeat;
 `;
 
 const BlurLayer = styled(Wave)`
   top: 100px;
-  height: 1503px;
+  height: 100vh;
   background-image: url(${blurLayer});
+   background-repeat: repeat;
 `;
+ 

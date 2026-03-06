@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Honk:MORF@15&family=Kalnia+Glaze:wdth,wght@103.5,604&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+ font-family: "Audiowide" sans-serif!important;
+  font-weight: 400!important;
+  font-style: normal;
+  text-align: center;  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
